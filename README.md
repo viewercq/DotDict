@@ -27,7 +27,7 @@
 ## 示例
 
 ```python
-dd = util.DotDict()
+dd = DotDict()
 dd.list = [111, 222]
 dd.dict = {'a': 1, 'b': {'bb': 'bbb'}}
 dd.string = '....'
