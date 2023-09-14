@@ -5,7 +5,8 @@
 * 使用.链式获取数据，简洁方便，容易理解
 
 ## 函数
-* copy()
+
+* deepcopy()
 
 返回深度拷贝DotDict的副本
 
@@ -23,6 +24,10 @@
 * yaml(file)
 
 将DotDict的yaml格式的字符串保存到文件file中，返回文件名
+
+* merge(*dicts)
+
+将dicts合并到当前dict
 
 ## 示例
 
